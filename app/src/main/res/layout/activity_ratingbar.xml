@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.leesnriud.uilist2.RatingbarActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RatingBar
+            android:id="@+id/rb_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:numStars="6"
+            android:stepSize="0.5" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

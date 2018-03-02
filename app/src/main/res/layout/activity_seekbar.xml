@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.example.leesnriud.uilist2.SeekbarActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SeekBar
+            android:id="@+id/sb_seebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_seekbar"
+            android:text="当前进度为"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
