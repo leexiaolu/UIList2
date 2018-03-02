@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ToggleActivity" />
+        <activity android:name=".ProgressbarActivity" />
+        <activity android:name=".SeekbarActivity" />
+        <activity android:name=".RatingbarActivity" />
+        <activity android:name=".ScrollviewActivity" />
+        <activity android:name=".DatetimeActivity"></activity>
     </application>
 
 </manifest>
