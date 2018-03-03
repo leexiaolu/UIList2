@@ -21,7 +21,10 @@
         <activity android:name=".SeekbarActivity" />
         <activity android:name=".RatingbarActivity" />
         <activity android:name=".ScrollviewActivity" />
-        <activity android:name=".DatetimeActivity"></activity>
+        <activity android:name=".DatetimeActivity" />
+        <activity android:name=".DatePickerActivity" />
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".CalendarViewActivity"></activity>
     </application>
 
 </manifest>

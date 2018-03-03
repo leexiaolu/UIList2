@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_ts, R.id.bt_progressbar, R.id.bt_seekbar, R.id.bt_ratingbar, R.id.bt_scrollview, R.id.bt_dt})
+    @OnClick({R.id.bt_ts, R.id.bt_progressbar, R.id.bt_seekbar, R.id.bt_ratingbar, R.id.bt_scrollview, R.id.bt_dt,R.id.bt_datepicker,R.id.bt_timepicker,R.id.bt_calendarview})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_ts:
@@ -46,6 +46,18 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_dt:
                 intent = new Intent(MainActivity.this,DatetimeActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.bt_datepicker:
+                intent = new Intent(MainActivity.this,DatePickerActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.bt_timepicker:
+                intent = new Intent(MainActivity.this,TimePickerActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.bt_calendarview:
+                intent = new Intent(MainActivity.this,CalendarViewActivity.class);
                 startActivity(intent);
                 break;
         }
